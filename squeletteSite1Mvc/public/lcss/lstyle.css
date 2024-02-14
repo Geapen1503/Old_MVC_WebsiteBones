@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+div#containerBox{
+    background-color: indianred;
+    width: 100%;
+    height: 100%;
+}
+
+/*début de la partie header*/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: grey;
+}
+
+a.logoButton{
+
+}
+
+img.logoHeader{
+    display: flex;
+    width: 18vh;
+    height: 18vh;
+
+}
+
+/*fin de la partie header*/
+
+/*début de la partie boutons*/
+
+div#buttonBox{
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #525E65;
+}
+
+a.button{
+    display: none;
+}
+
+a.button::after{
+    display: none;
+}
+
+a.button:hover::after{
+    display: none;
+}
+
+/*fin de la partie bouton*/
+
+
+/*début partie bouton déroulant*/
+
+
+.dropdown{
+    display: block;
+    position: absolute;
+    margin-top: -8vh;
+    max-width: 22vh;
+    height: 7vh;
+    border-bottom-left-radius: 0.5vh;
+    border-bottom-right-radius: 0.5vh;
+    color: white;
+    background-color: #525E65;
+    transition: height 0.4s ease-in-out;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.bloc-top{
+    margin: 0vh;
+    display: block;
+    width: 20%;
+    border: none;
+    outline: none;
+    font-size: 2.679618154412996vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #525E65;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.669904538603249vh;
+}
+
+
+img.deroulImg{
+    margin-top: 0.4vh;
+    margin-left: 3vh;
+    margin-bottom: 2vh;
+    width: 5vh;
+    height: 5vh;
+}
+
+a.buttonNew{
+    display: block;
+    font-size: 2.6vh;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+a.buttonNew:hover {
+    color: orange;
+}
+
+.bloc-links{
+    margin: 0 1vh;
+}
+
+.bloc-links li{
+    list-style-type: none;
+    margin: 0.669904538603249vh 0;
+}
+
+.bloc-links li a{
+    font-size: 2.4116563389716963vh;
+    color: white;
+    margin-left: 0.669904538603249vh;
+}
+
+.bloc-links li:last-child{
+    margin-bottom: 3.349522693016245vh;
+}
+
+/*fin partie bouton déroulant*/
+
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 45vw;
+    background-color: slategrey;
+}
+
+.networkBox{
+    display: flex;
+    width: 45%;
+    height: 13vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.networkButton{
+    display: flex;
+    width: 9vw;
+    height: 9vw;
+}
+
+.copyrightBox{
+    display: flex;
+    width: 100%;
+    height: 8vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrightText{
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}

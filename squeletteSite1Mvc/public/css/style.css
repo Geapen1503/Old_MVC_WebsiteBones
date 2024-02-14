@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    /*background-image: url();*/
+}
+
+div#containerBox{
+    background-color: indianred;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/*début de la partie header*/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: grey;
+    /*background-image: url();*/
+}
+
+a.logoButton{
+
+}
+
+img.logoHeader{
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+
+}
+
+/*fin de la partie header*/
+
+/*début de la partie boutons*/
+
+div#buttonBox{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #525E65;
+}
+
+a.button{
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+}
+
+a.button::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 0%;
+    height: 0.3vh;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+a.button:hover::after{
+    width: 100%;
+}
+
+/*fin de la partie bouton*/
+
+/*début partie bouton déroulant*/
+
+
+.dropdown{
+    display: none;
+}
+
+.bloc-top{
+    display: none;
+}
+
+a.buttonNew{
+    display: none;
+}
+
+.bloc-links{
+    padding: 0 22px;
+}
+
+.bloc-links li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.bloc-links li a{
+    font-size: 18px;
+    color: white;
+    margin-left: 5px;
+}
+
+.bloc-links li:last-child{
+    padding-bottom: 25px;
+}
+
+/*fin partie bouton déroulant*/
+
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 15vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: slategrey;
+}
+
+.networkBox{
+    display: flex;
+    width: 20%;
+    height: 5vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.networkButton{
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+}
+
+.copyrightBox{
+    display: flex;
+    width: 100%;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyrightText{
+    color: white;
+    font-size: 1.13vw;
+    font-weight: bold;
+}

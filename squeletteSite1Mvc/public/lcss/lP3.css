@@ -1,0 +1,83 @@
+div#MainBox{
+	display: flex;
+	width: 100%;
+	height: 150vh;
+	flex-direction: column;
+	background-color: darkblue;
+}
+
+/*début de la partie contact*/
+
+div#contactBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.4vh;
+	width: 38vh;
+	height: 70vh;
+	margin-top: 10vh;
+	color: white;
+	font-weight: bold;
+	background-color: brown;
+	/*border: solid 2px blue;*/
+	border-radius: 0vh;
+}
+
+p.contactPresText{
+	color: white;
+	text-align: center;
+	font-size: 3vh;
+	margin-bottom: 4vh;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 30vh;
+}
+
+label{
+	margin-left: 1vh;
+}
+
+input.input{
+	align-self: center;
+	width: 28vh;
+	height: 3vh;
+}
+
+textarea{
+	align-self: center;
+	min-width: 28vh;
+	min-height: 10vh;
+	max-width: 28vh;
+	max-height: 18vh;
+}
+
+input.buttoni{
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	margin-top: 1.8vh;
+	font-size: 2.5vh;
+	height: 5vh;
+	width: 30vh;
+	border: none;
+
+}
+
+input.buttoni:hover{
+	color: black;
+	background-color: white;
+	transition-duration: 0.8s;
+}
+
+/*fin de la partie contact*/
+
+iframe.locaIframe{
+	display: flex;
+	margin-top: 5vh;
+	width: 38vh;
+	height: 50vh;
+}

@@ -1,0 +1,66 @@
+div#MainBox{
+	display: flex;
+	width: 100%;
+	height: 350vw;
+	background-color: darkblue;
+}
+
+
+.prestationContainerBox{
+	display: flex;
+	width: 80vw;
+	height: 250vw;
+	margin-top: 25vw;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background-color: hotpink;
+}
+
+.prestationBox{
+	display: flex;
+	width: 44vw;
+	height: 58vw;
+	flex-direction: column;
+
+	background-color: brown;
+}
+
+.topBox{
+	display: flex;
+	width: 100%;
+	height: 50%;
+
+	background-color: blue;
+}
+
+.prestationImg{
+	width: 100%;
+	height: 100%;
+}
+
+.bottomBox{
+	display: flex;
+	width: 100%;
+	height: 50%;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: green;
+}
+
+.prestationTitle{
+	color: white;
+	font-size: 5.5vw;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.prestationDescription{
+	color: white;
+	margin-top: 1vw;
+	font-size: 3.3vw;
+	text-align: center;
+}
