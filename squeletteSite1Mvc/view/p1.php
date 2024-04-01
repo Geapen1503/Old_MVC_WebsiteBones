@@ -23,7 +23,7 @@ ob_start();
                 </div>
                 <div class="bottomBox">
                     <p class="prestationTitle">Partenaire 1</p>
-                    <p class="prestationDescription">lorem ipsum lorem An easter for easter what a great joke ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <p class="prestationDescription">lorem ipsum lorem I just want to have a lot of commit thanks github ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </div>
             </div>
 
