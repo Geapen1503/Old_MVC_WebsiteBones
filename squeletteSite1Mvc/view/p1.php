@@ -19,7 +19,7 @@ ob_start();
         <div class="prestationContainerBox">
             <div class="prestationBox">
                 <div class="topBox">
-                    <img class="prestationImg" src="./public/img/">
+                    <img class="prestationImg" src="../public/img/">
                 </div>
                 <div class="bottomBox">
                     <p class="prestationTitle">Partenaire 1</p>
