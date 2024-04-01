@@ -23,7 +23,7 @@ ob_start();
                 </div>
                 <div class="bottomBox">
                     <p class="prestationTitle">Partenaire 1</p>
-                    <p class="prestationDescription">lorem ipsum lorem I think it's a joke ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <p class="prestationDescription">lorem ipsum lorem Or maybe ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </div>
             </div>
 
